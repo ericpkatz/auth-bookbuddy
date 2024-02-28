@@ -1,0 +1,25 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > * {
+  margin: 0.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: dodgerBlue;
+  padding: 0.5rem;
+}
+
+nav a {
+  color: white;
+  padding: 0.25rem;
+}
+
+nav a.selected {
+  border: solid 1px white;
+  text-decoration: none;
+}
